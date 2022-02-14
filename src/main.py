@@ -94,7 +94,7 @@ def main(args):
                         ),
                     )
             savename = os.path.join(save_dir, f"epoch={epoch}_sample.png")
-            visualize_sample(pc[:4], pred_pc[:4], savename)
+            visualize_sample(pc[4:8], pred_pc[4:8], savename)
     
     # save loss plot
     fig = plt.figure()
