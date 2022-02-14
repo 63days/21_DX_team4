@@ -1,0 +1,9 @@
+matplotlib
+numpy
+numpy-stl
+Pillow
+pytorch3d @ git+https://github.com/facebookresearch/pytorch3d.git@fddd6a700fa9685c1ce2d4b266c111d7db424ecc
+torch
+torchvision
+tqdm
+trimesh
