@@ -111,7 +111,7 @@ if __name__ == "__main__":
     parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--gpu_num", type=int, default=0)
-    parser.add_argument("--num_points", type=int, default=10000)
+    parser.add_argument("--num_points", type=int, default=2048)
 
     args = parser.parse_args()
     main(args)

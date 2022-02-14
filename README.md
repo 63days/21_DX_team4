@@ -43,6 +43,6 @@ Download libraries `pip install -r requirements.txt`
 ## Train
 ```
 $ cd src
-$ python main.py [--batch_size 32] [--epochs 100] [--lr 1e-3] [--gpu_num 0] [--num_points 10000]
+$ python main.py [--batch_size 32] [--epochs 100] [--lr 1e-3] [--gpu_num 0] [--num_points <= 10000]
 ```
 
