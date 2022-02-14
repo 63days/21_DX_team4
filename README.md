@@ -1,4 +1,6 @@
 # Image-to-Point cloud Auto-Encoder
+2021_DX_team4 project
+
 Multiview images to point cloud auto-encoder implementation in pytorch.
 
 The model is composed of a pre-trained ResNet18 as an image encoder and MLPs as a point cloud decoder.
