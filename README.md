@@ -5,6 +5,9 @@ The model is composed of a pre-trained ResNet18 as an image encoder and MLPs as 
 
 ## Setup
 Download `data/1SET_STL` and `data/2SET_STL` and place them in the data directory.
+
+Download libraries `pip install -r requirements.txt`
+
 ## Project Structure
 ```
 ├── src                    <- project source codes
