@@ -6,6 +6,12 @@ Multiview images to point cloud auto-encoder implementation in pytorch.
 The model is composed of a pre-trained ResNet18 as an image encoder and MLPs as a point cloud decoder.
 
 ## Setup
+Clone the repo.
+```
+$ git clone https://github.com/63days/21_DX_team4
+$ cd 21_DX_team4
+```
+
 Download `data/1SET_STL` and `data/2SET_STL` and place them in the data directory.
 
 Download libraries `pip install -r requirements.txt`
