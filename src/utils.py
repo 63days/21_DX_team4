@@ -1,9 +1,12 @@
 import torch
-from pytorch3d.loss.chamfer import chamfer_distance
 import matplotlib.pyplot as plt
+from chamferdist import ChamferDistance
 
-def get_chamfer_distance_loss(x1: torch.Tensor, x2:torch.Tensor):
-    return chamfer_distance(x1, x2, batch_reduction="mean", point_reduction="mean")[0]
+chamferDist = ChamferDistance()
+
+def get_chamfer_distance_loss(src, tgt):
+    return chamferDist(src, tgt, bidirectional=True)
+
 
 def visualize_sample(pc: torch.Tensor, pred_pc: torch.Tensor, savename: str):
     """
